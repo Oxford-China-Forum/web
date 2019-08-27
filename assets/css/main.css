@@ -2247,3 +2247,16 @@ a.back-to-top:hover, a.back-to-top:focus {
 a[href="index.html#schedules"]{
 	display: none
 }
+
+.row{
+	    padding-bottom: 30px;
+}
+.gallery-img:hover{
+	  border-color: transparent;
+  box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.6);
+	transition: all 0.5s;
+	
+}
+.section123{
+	padding: 20px;
+}
