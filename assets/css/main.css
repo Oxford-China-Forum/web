@@ -1176,16 +1176,19 @@ a.back-to-top:hover, a.back-to-top:focus {
   border-left: none;
 }
 
-.padding-none:nth-child(4) {
+.padding-none:nth-child(5) {
   border-bottom: none;
   border-left: none;
 }
 
-.padding-none:nth-child(5) {
+.padding-none:nth-child(6) {
   border-bottom: none;
 }
 
-.padding-none:nth-child(6) {
+.padding-none:nth-child(7) {
+  border-bottom: none;
+}
+.padding-none:nth-child(8) {
   border-bottom: none;
 }
 
