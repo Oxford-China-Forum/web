@@ -1193,12 +1193,12 @@ a.back-to-top:hover, a.back-to-top:focus {
 }
 @media screen and (max-width: 768px) {
 .padding-none:nth-child(4) {
-  border-bottom: none !important;
+  border-bottom: none ;
 }
 
 .padding-none:nth-child(6) {
-  border-bottom: 1px solid #ddd !important;
-  border-left: 1px solid #ddd !important;
+  border-bottom: 1px solid #ddd ;
+  border-left: 1px solid #ddd ;
 }
 }
 .services-wrapper {

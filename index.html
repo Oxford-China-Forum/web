@@ -27,14 +27,21 @@
     <!-- Header Area wrapper Starts -->
     <header id="header-wrap">
 		  <style>
+@media screen and (max-width: 992px) {
+.padding-none{
+  border-left: none !important;
+  border-bottom: none !important;
+  border-top: none !important;
+  border-right: none !important;
+}
+}
 @media screen and (max-width: 768px) {
-.padding-none:nth-child(7) {
-  border-left: none;
+#history{text-align: center;padding-top:10px;
 }
 }
 	  </style>
       <!-- Navbar Start -->
-      <nav class="navbar navbar-expand-lg fixed-top scrolling-navbar">
+      <nav  id="start" class="navbar navbar-expand-lg fixed-top scrolling-navbar">
         <div class="container">
           <!-- Brand and toggle get grouped for better mobile display -->
           <div class="navbar-header">
@@ -44,7 +51,7 @@
               <span class="icon-menu"></span>
               <span class="icon-menu"></span>
             </button>
-            <a href="index.html" class="navbar-brand"><img src="assets/img/123.png" alt="" style="max-width: 175px;"></a>
+            <a href="index.html" class="navbar-brand"><img src="assets/img/123.png" alt="" style="max-width: 150px;"></a>
           </div>
           <div class="collapse navbar-collapse" id="main-navbar">
             <ul class="navbar-nav mr-auto w-100 justify-content-end">
@@ -164,7 +171,7 @@
     </header>
     <!-- Header Area wrapper End -->
 
-    <!-- About Us Section Start -->
+    <!-- About Us Section Start --><!--
 <section id="about-us" class="section-padding">
   <div class="container">
     <div class="row">
@@ -183,9 +190,32 @@
 		      <div class="col-lg-4 col-md-6 col-6 wow fadeInLeft" data-wow-delay="0.3s">
         <img class="about-img" src="assets/img/about/test.jpg" alt="" style="max-width:100%"></div>
   </div></div>
-</section>
+</section>-->
     <!-- Event Slides Section End -->
-	  
+    <!-- Event Slides Section Start -->
+    <section id="event-slides" class="section-padding">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="section-title-header text-center">
+              <h1 class="section-title wow fadeInUp" data-wow-delay="0.2s">关于论坛</h1>
+              <p class="wow fadeInDown" data-wow-delay="0.2s">OCF致力于提供一个去政治化、非商业性的国际平台，以去促使全面的、有建设性的关于中国的沟通与对话，因我们相信21世纪的中国需要一个多元化，多重叙事角度的理解。</p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-6 col-xs-12 wow fadeInRight" data-wow-delay="0.3s">
+            <div class="video">
+              <img class="img-fluid" src="assets/img/about/about.jpg" alt="">
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-6 col-xs-12 wow fadeInLeft" data-wow-delay="0.3s">
+		  <p id="history" style="font-size:24px; padding-bottom: 10px;"> 历史</p>
+            <p class="intro-desc">牛津中国论坛（OCF）成立于2013年，是全英规模最大，最为严谨学术的中国论坛之一。OCF 旨在为来自全英的学生学者们提供关于当代中国的多元化视角。作为海外最具影响力的中国论坛之一， OCF 致力于汇集中国话题的领域行家，与来自英国各地的中外学生们，共同对变化中的中国进行深度的讨论。上两届的论坛由凤凰网全球直播，累计观看人数逾200万人次。在往届论坛中我们曾有幸邀请到澳大利亚前总理陆克文、驻中国前大使韩魁发爵士、真格基金创始人徐小平、作家严歌苓、艺术家徐冰、艺术家金星、 导演文牧野、大疆创新科技集团董事长李泽湘等在内的超过80名嘉宾。
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Event Slides Section End -->
 	  
 	<!-- Services Section Start -->
     <section id="services" class="services section-padding">
@@ -347,7 +377,7 @@
           <div class="col-12">
             <div class="section-title-header text-center">
               <h1 class="section-title wow fadeInUp" data-wow-delay="0.2s">本届(往届)嘉宾</h1>
-              <p class="wow fadeInDown" data-wow-delay="0.2s">写点东西</p>
+              <p class="wow fadeInDown" data-wow-delay="0.2s"> </p>
             </div>
           </div>
         </div>
@@ -495,7 +525,7 @@
 	    <div class="row">
           <div class="col-12">
             <div class="section-title-header text-center">
-              <p class="wow fadeInDown title123" data-wow-delay="0.2s">第一行的赞助商</p>
+              <p class="wow fadeInDown title123" data-wow-delay="0.2s"> </p>
             </div>
           </div>
         </div> 
@@ -521,6 +551,7 @@
             </div>
           </div>
         </div>
+		<!--
 	    <div class="row">
           <div class="col-12">
             <div class="section-title-header text-center">
@@ -579,6 +610,7 @@
             </div>
           </div>
         </div>
+		-->
       </div>
     </section>
     <!-- Sponsors Section End -->
@@ -654,7 +686,7 @@
           <div class="col-md-6 col-lg-6 col-sm-12 col-12 wow fadeInUp" data-wow-delay="0.2s">
             <h3><img src="assets/img/123.png" alt="" style="transform:translate(-15px,-10px); max-height: 100px"></h3>
             <p>
-              牛津中国论坛（Oxford China Forum, OCF）是一个由牛津大学学生组织的年度大型论坛，以及一系列的独立讲座和研讨会。OCF 旨在为来自全英的学生学者们提供关于当代中国的多元化视角。作为海外最具影响力的中国论坛之一， OCF 致力于汇集中国话题的领域行家，与来自英国各地的中外学生们，共同对变化中的中国进行深度的讨论。
+              牛津中国论坛（OCF）致力于提供一个去政治化、非商业性的国际平台，以去促使全面的、有建设性的关于中国的沟通与对话，因我们相信21世纪的中国需要一个多元化，多重叙事角度的理解。
             </p>
           </div>
           <div class="col-md-4 col-lg-4 col-sm-6 col-6 wow fadeInUp" data-wow-delay="0.6s">
