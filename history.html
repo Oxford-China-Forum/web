@@ -38,6 +38,48 @@
 .navbar.navbar-expand-lg.fixed-top.scrolling-navbar{
 background-color:#f3f4f3;}
 .schedule .card-header h4{margin: 10px 10px 10px 0;}
+.his-image{width:250px;margin-bottom:20px;margin-top:20px;}
+.his-image_div img{border-radius: 25px;}
+.his-image3{width: 180px; margin-bottom:20px;margin-top:20px;}
+.his-image5{width: 145px; margin-bottom:20px;margin-top:20px;}
+.his-text{margin: auto;}
+.his-3{display:block !important}
+.info-text{transform: translate(-5px,-15px) !important;padding: 10px 20px !important;opacity: 0.8;border-radius: 10px;}
+.info-text5{transform: translate(-5px,-15px) !important;padding: 10px 20px !important;opacity: 0.8;border-radius: 10px;}
+.info-text h3{margin-bottom: 0 !important;}
+.info-text5	 h3{margin-bottom: 0 !important;}
+.speaker {
+  padding: 5px;
+  position: relative;
+  transition: all 0.3s ease-in-out 0s;
+  float: left;
+
+}
+.speaker img {
+  position: relative;
+  cursor: pointer;
+  overflow: hidden;
+}
+.speaker .info-text {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  padding: 15px 20px;
+  background: #f3f4f3;
+  text-align: left;
+}
+.speaker .info-text5 {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  padding: 15px 20px;
+  background: #f3f4f3;
+  text-align: left;
+}
+.speaker .info-text h3{font-size:12px !important;}
+.speaker .info-text5 h3{font-size:12px !important;}
+.card>div{border-bottom: 1px solid #ddd;}
+.schedule .card-header{ border-bottom:none !important;}
 	  </style>
       <nav class="navbar navbar-expand-lg fixed-top scrolling-navbar">
         <div class="container">
@@ -148,7 +190,7 @@ background-color:#f3f4f3;}
                   <a class="nav-link active" id="2019-tab" data-toggle="tab" href="#2019" role="tab" aria-controls="2019" aria-expanded="true">
                     <div class="item-text">
                       <h4>2019</h4>
-                      <h5>中国的十四亿心跳(例子而已)</h5>
+                      <h5>中国的十四亿心跳</h5>
                     </div>
                   </a>
                 </li>
@@ -172,113 +214,236 @@ background-color:#f3f4f3;}
             </div>
           </div>
           <div class="schedule-tab-content col-md-9 col-lg-9 col-9 clearfix">
-            <div class="tab-content" id="myTabContent">
+            <div class="tab-content" id="myTabContent" style="    width: 825px !important;">
               <div class="tab-pane fade show active" id="2019" role="tabpanel" aria-labelledby="2019-tab">
                 <div id="accordion">
-				
+				<!--Start-->
                   <div class="card">
                     <div id="headingOne">
-                      <div class="collapsed card-header" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
-                        <div class="images-box">
-                          <img class="img-fluid" src="assets/img/history/Leslie Liu.jpg" alt="">
-                        </div>                     
-                        <span class="time">Keynote Session</span>
+                      <div class="collapsed card-header" data-toggle="collapse" data-target="#2019_1" aria-expanded="false" aria-controls="2019_1" style="display:flex">
+                        <div class="his-image_div">
+                          <img class="img-fluid his-image" src="assets/img/history/Leslie Liu.jpg" alt="">
+                        </div>
+                        <div class="his-text">
+						<h5 >Keynote Session</h5>
                         <h4>Leslie Liu</h4>
-                        <h5 class="name">Corporate Vice President of JD.com</h5>
+                        <h5 >Corporate Vice President of JD.com</h5>
+                        </div>
                       </div>
                     </div>
-                    <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+                    <div id="2019_1" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
                       <div class="card-body">
                         <p>Dr. Leslie Liu is the Corporate Vice President of JD.com, and Head of JD Cloud Ecosystem. He joined JD Smart in 2014 where he served as VP of JD Smart and GM of smart enterprise division. He incorporated technology into the business platform and started innovative services on JD Cloud like EdTech, MedTech, MarTech, AloT. This new technology and business platform incorporates the capabilities from both JD’s BUs and its partners, extending the business reach of JD group. Dr Liu focuses on the applications of cloud services, with which he is transforming the traditional industries. He works with industry partners to build JD+ ecosystem through corporate-level collaboration, investment, joint ventures, and sponsoring joint events. In 2018, he was awarded by Tencent Marketing Institute and Harvard Business Review the reward for innovations in business models in “30 People of Innovation in China“ Before joining JD, Dr. Liu served at IBM GMU Research Headquarters in Shanghai and Prior to that, at the IBM Thomas J. Watson Research Center in Yorktown Heights, New York, where he managed a global portfolio and led several strategic initiatives on Big data and mobile solutions. Dr. Liu is the author of nine patent applications and received the IBM Invention Achievement Award in both 2010 and 2011. He graduated from the USC Viterbi School of Engineering in 2007 with a Ph.D. in Computer Science.</p>
                       </div>
                     </div>
                   </div>
-                  <div class="card">
-                    <div id="headingTwo">
-                      <div class="collapsed card-header" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                        <div class="images-box">
-                          <img class="img-fluid" src="assets/img/history/Leslie Liu.jpg" alt="">
-						  <img class="img-fluid" src="assets/img/history/Leslie Liu.jpg" alt="">
-						  <img class="img-fluid" src="assets/img/history/Leslie Liu.jpg" alt="">
-                        </div>                     
-                        <span class="time">Film Panel</span>
-                        <h4>Yukun Xin & Muye Wen & Hsin-yao Huang</h4>
-                        <h5 class="name">David Warner</h5>
-                      </div>
-                    </div>
-                    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
-                      <div class="card-body">
-                        <p>Consectetur adipisicing elit. Quod distinctio impedit sint accusantium ducimus lites consequuntur innobisl dolores saepe.Proin sit amet turpis lobortis.</p>
-                        <div class="location">
-                          <span>Location:</span> Hall 1 , Building A, Golden Street, Southafrica
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="card">
-                    <div id="headingThree">
-                      <div class="collapsed card-header" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                        <div class="images-box">
-                          <img class="img-fluid" src="assets/img/speaker/speakers-3.jpg" alt="">
-                        </div>                     
-                        <span class="time">10am - 12:30pm</span>
-                        <h4>Getting Started With SketchApp</h4>
-                        <h5 class="name">David Warner</h5>
-                      </div>
-                    </div>
-                    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
-                      <div class="card-body">
-                        <p>Consectetur adipisicing elit. Quod distinctio impedit sint accusantium ducimus lites consequuntur innobisl dolores saepe.Proin sit amet turpis lobortis.</p>
-                        <div class="location">
-                          <span>Location:</span> Hall 1 , Building A, Golden Street, Southafrica
-                        </div>
-                      </div>
-                    </div>
-                  </div>
+				  <!--End-->
                 </div>
               </div>
               <div class="tab-pane fade" id="2018" role="tabpanel" aria-labelledby="2018-tab">
                 <div id="accordion2">
+				<!--Start-->
                   <div class="card">
-                    <div id="headingOne1">
-                      <div class="collapsed card-header" data-toggle="collapse" data-target="#collapseOne1" aria-expanded="false" aria-controls="collapseOne1">
-                        <div class="images-box">
-                          <img class="img-fluid" src="assets/img/speaker/speakers-1.jpg" alt="">
-                        </div>                     
-                        <span class="time">10am - 12:30pm</span>
-                        <h4>Web Design Principles and Best Practices</h4>
-                        <h5 class="name">David Warner</h5>
-                      </div>
-                    </div>
-                    <div id="collapseOne1" class="collapse show" aria-labelledby="headingOne1" data-parent="#accordion2">
-                      <div class="card-body">
-                        <p>Consectetur adipisicing elit. Quod distinctio impedit sint accusantium ducimus lites consequuntur innobisl dolores saepe.Proin sit amet turpis lobortis.</p>
-                        <div class="location">
-                          <span>Location:</span> Hall 1 , Building A, Golden Street, Southafrica
+                    <div id="headingOne" class="collapsed" data-toggle="collapse" data-target="#2018_1" aria-expanded="false" aria-controls="2018_1">
+                      <div class="card-header his-3" style="display:flex">
+                        <div class="his-text">
+						<h5 >Keynote Session</h5>
+                        <h4>XU XIAO-PING</h4>
+                        <h5 >Founding Partner of ZhenFund (真格基金)</h5>
+                        </div>
+                        <div class="his-image_div speaker">
+                          <img class="img-fluid his-image" src="assets/img/history/Xiaoping Xu.jpg" alt="">
+						   <div class="info-text"><h3><a >徐小平</a></h3></div>
                         </div>
                       </div>
                     </div>
-                  </div>
-                  <div class="card">
-                    <div id="headingTwo2">
-                      <div class="collapsed card-header" data-toggle="collapse" data-target="#collapseOne2" aria-expanded="false" aria-controls="collapseOne2">
-                        <div class="images-box">
-                          <img class="img-fluid" src="assets/img/speaker/speakers-2.jpg" alt="">
-                        </div>                     
-                        <span class="time">10am - 12:30pm</span>
-                        <h4>Web Design Principles and Best Practices</h4>
-                        <h5 class="name">David Warner</h5>
+                    <div id="2018_1" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+                      <div class="card-body">
+                        <p>Mr. Xu Xiao-Ping is the Founding Partner of ZhenFund (真格基金)，a leading earlystage fund which has been ranked first in “Top 30 Early-stage Firms of the Year” by Zero2IPO Group for 4 consecutive years. He is known as  one of China’s pioneering angel investors. Prior to founding ZhenFund, Mr. Xu was a Co-Founder of New Oriental Education & Technology Group (NYSE: EDU), the largest provider of private education in China. The Founder Magazine named Mr. Xu as “2010 Most Respected Angel Investor” and “2013 Best Angel Investor”. He was also named “2014 Best Angel Investor” by CV Source and given the “2014 Chinese Business Leaders Award” by Phoenix TV. Forbes Magazine listed Mr. Xu as one of China’s “Top 100 Celebrities” in 2004. Mr. Xu has a bachelor’s degree from China Central Conservatory of Music and holds a Ma s ter degree from University of Saskatchewan, Canada. He is currently the President of China Angel Club, China’s top angel investor organisation, President of China Angel Committee by CSRC (China Securities Regulatory Committee).</p>
                       </div>
                     </div>
-                    <div id="collapseOne2" class="collapse" aria-labelledby="headingTwo2" data-parent="#accordion2">
-                      <div class="card-body">
-                        <p>Consectetur adipisicing elit. Quod distinctio impedit sint accusantium ducimus lites consequuntur innobisl dolores saepe.Proin sit amet turpis lobortis.</p>
-                        <div class="location">
-                          <span>Location:</span> Hall 1 , Building A, Golden Street, Southafrica
+                  </div>
+				  <!--End-->
+				  <!--Start-->
+                  <div class="card">
+                    <div id="headingOne" class="collapsed" data-toggle="collapse" data-target="#2018_2" aria-expanded="false" aria-controls="2018_2">
+                      <div class=" card-header his-3"style="display:flex">
+                        <div class="his-text">
+						<h5 >INTERNATIONAL RELATIONS</h5>
+                        <h4>SUZANNE XIAO YANG & MICHAEL LIU & Rana Mitter</h4>
+                        <h5 > </h5>
+                        </div>
+                        <div class="his-image_div">
+                        <div class="his-image_div speaker">
+                          <img class="img-fluid his-image3" src="assets/img/history/SUZANNE XIAO YANG.jpg" alt="">
+						   <div class="info-text"><h3><a >SUZANNE XIAO YANG</a></h3></div>
+                        </div>
+                        <div class="his-image_div speaker">
+                          <img class="img-fluid his-image3" src="assets/img/history/MICHAEL LIU.jpg" alt="">
+						   <div class="info-text"><h3><a >MICHAEL LIU</a></h3></div>
+                        </div>
+						<div class="his-image_div speaker">
+                          <img class="img-fluid his-image3" src="assets/img/history/Rana Mitter.jpg" alt="">
+						   <div class="info-text"><h3><a >Rana Mitter</a></h3></div>
+                        </div>
                         </div>
                       </div>
                     </div>
+                    <div id="2018_2" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+                      <div class="card-body">
+                        <p>Globalisation faces mounting pressure from all sides. The US used to champion the idea of a global village but now pursues an “American First” approach under the Trump administration. The world today is witnessing insufficient drive for economic growth, a widening wealth gap and the spread of nonconventional security threats like terrorism, and cybercrime. These challenges require global solutions. It is widely believed that China has become the most important advocate and practitioner of globalisation in the world. The phrase "building a community with a shared future for mankind" is a concept constantly mentioned by Chinese President Xi Jinping both at home and abroad. In 2017, it was written in the report of the 19th CCP party congress and became part of the guideline for Chinese diplomacy. The Belt and Road Initiative is one way of putting the concept into practice. President Xi believes that the initiative will become a significant platform for countries concerned to realise their common development through cooperation. How should we interpret the concept of "building a community with a shared future for mankind”? To what extent will the concept influence Sino-European relations? How will Sino-European relation develop in the context of transnational crises in Europe?</p>
+                      </div>
+                    </div>
                   </div>
+				  <!--End-->
+				  <!--Start-->
+                  <div class="card">
+                    <div id="headingOne" class="collapsed" data-toggle="collapse" data-target="#2018_3" aria-expanded="false" aria-controls="2018_3">
+                      <div class=" card-header his-3" style="display:flex">
+                        <div class="his-text">
+						<h5 >INTERNATIONAL RELATIONS</h5>
+                        <h4>SUZANNE XIAO YANG & MICHAEL LIU & Rana Mitter</h4>
+                        <h5 > </h5>
+                        </div>
+                        <div class="his-image_div">
+                        <div class="his-image_div speaker">
+                          <img class="img-fluid his-image3" src="assets/img/history/BAI TONGDONG.jpg" alt="">
+						   <div class="info-text"><h3><a >BAI TONGDONG</a></h3></div>
+                        </div>
+                        <div class="his-image_div speaker">
+                          <img class="img-fluid his-image3" src="assets/img/history/XU TING.jpg" alt="">
+						   <div class="info-text"><h3><a >XU TING</a></h3></div>
+                        </div>
+						<div class="his-image_div speaker">
+                          <img class="img-fluid his-image3" src="assets/img/history/NICHOLAS BUNNIN.jpg" alt="">
+						   <div class="info-text"><h3><a >NICHOLAS BUNNIN</a></h3></div>
+                        </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div id="2018_3" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+                      <div class="card-body">
+                        <p>The modern history of China is marked by strenuous efforts on the part of Chinese intellectuals to recover a strong and prosperous China out of poverty and corruption. One of the central questions in the debate is how to deal with the legacy of Confucianism. In their confrontation with the West, the Chinese indeed tried a wide range of social experiments including Qing China’s ‘Eastern Ways, Western Technologies’ and Mao’s Great Leap Forward and Culture Revolution, which brought about devastating effects on Chinese society. After four decades of reform, China is still struggling to accommodate and learn from Confucianism, a living legacy that has, over hundreds of years, seen China’s ups and downs. Confucian moral values continue to shape the hurly-burly of daily life in China and the ideal of finding a benevolent leader governing the country still hovers around Chinese politics. Confucianism, however, also needs to confront many challenges issuing from the modern era—the challenges of the rule of law, of democracy and of human rights. What varieties of Confucianism can we render intelligible in the contemporary Chinese context? And what can China learn from the social and political experience of the pan-Confucian world such as South Korea, Taiwan and Singapore? In addressing these questions, the philosophy panel will deliver insights from top political theorists and Confucian philosophers in the world today.</p>
+                      </div>
+                    </div>
+                  </div>
+				  <!--End-->
+				  <!--Start-->
+                  <div class="card">
+                    <div id="headingOne" class="collapsed" data-toggle="collapse" data-target="#2018_4" aria-expanded="false" aria-controls="2018_4">
+                      <div class=" card-header his-3" style="display:flex">
+                        <div class="his-text">
+						<h5 >RURAL CHINA</h5>
+                        <h4>LIU SHOUYING & SUN LI & DUNCAN HEWITT & ANNA LORA-WAINWRIGHT</h4>
+                        <h5 > </h5>
+                        </div>
+                        <div class="his-image_div speaker">
+                          <img class="img-fluid his-image3" src="assets/img/history/LIU SHOUYING.jpg" alt="">
+						   <div class="info-text"><h3><a >LIU SHOUYING</a></h3></div>
+                        </div>
+                        <div class="his-image_div speaker">
+                          <img class="img-fluid his-image3" src="assets/img/history/SUN LI.jpg" alt="">
+						   <div class="info-text"><h3><a >SUN LI</a></h3></div>
+                        </div>
+						<div class="his-image_div speaker">
+                          <img class="img-fluid his-image3" src="assets/img/history/DUNCAN HEWITT.jpg" alt="">
+						   <div class="info-text"><h3><a >DUNCAN HEWITT</a></h3></div>
+                        </div>
+						<div class="his-image_div speaker">
+                          <img class="img-fluid his-image3" src="assets/img/history/ANNA LORA-WAINWRIGHT.jpg" alt="">
+						   <div class="info-text"><h3><a >ANNA LORA-WAINWRIGHT</a></h3></div>
+                        </div>
+                        </div>
+                     
+                    </div>
+                    <div id="2018_4" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+                      <div class="card-body">
+                        <p>This year, the Rural China Panel will focus on the topic “Rural Chinese Society: The Future of the Next Generation”. We would like to explore how urbanisation and modernisation have affected the diminishing rural population and what challenges the new generation of rural China faces. We have always believed that the discussion on rural Chinese society should be a significant theme in the narrative of modern China. On the one hand, rural Chinese society is a link to the past Chinese traditions and culture. On the other hand, rural China is also the source of potential problems and change. Following the open-up of the Chinese economy and the marketisation in late 1980s, various social issues surge forward. Urban migration, aged population in the countryside, education for children in rural China, transportation safety are all imminent problems waiting to be solved. The future developmental path of rural China will crucially influence a number of socio-political concerns, such as urban-rural inequality, political freedom, democratic elections, etc. Bearing all these in mind, we hope that through our panel discussion we are able to find a way which can lead rural Chinese society to a prosperous future.</p>
+                      </div>
+                    </div>
+                  </div>
+				  <!--End-->
+				  <!--Start-->
+                  <div class="card">
+                    <div id="headingOne" class="collapsed " data-toggle="collapse" data-target="#2018_5" aria-expanded="false" aria-controls="2018_5" >
+                      <div class=" card-header his-3" style="display:flex">
+                        <div class="his-text">
+						<h5 >LITERATURE</h5>
+                        <h4>XIA PENG & LI ANG & NICKY HARMAN & FENG TANG & YAN GELING</h4>
+                        <h5 > </h5>
+                        </div>
+                        <div class="his-image_div">
+						<div class="his-image_div speaker">
+                          <img class="img-fluid his-image5" src="assets/img/history/XIA PENG.jpg" alt="">
+						   <div class="info-text5"><h3><a >XIA PENG</a></h3></div>
+                        </div>
+                        <div class="his-image_div speaker">
+                          <img class="img-fluid his-image5" src="assets/img/history/LI ANG.jpg" alt="">
+						   <div class="info-text5"><h3><a >LI ANG</a></h3></div>
+                        </div>
+						<div class="his-image_div speaker">
+                          <img class="img-fluid his-image5" src="assets/img/history/NICKY HARMAN.jpg" alt="">
+						   <div class="info-text5"><h3><a >NICKY HARMAN</a></h3></div>
+                        </div>
+						<div class="his-image_div speaker">
+                          <img class="img-fluid his-image5" src="assets/img/history/FENG TANG.jpg" alt="">
+						   <div class="info-text5"><h3><a >FENG TANG</a></h3></div>
+                        </div>
+						<div class="his-image_div speaker">
+                          <img class="img-fluid his-image5" src="assets/img/history/YAN GELING.jpg" alt="">
+						   <div class="info-text5"><h3><a >YAN GELING</a></h3></div>
+                        </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div id="2018_5" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+                      <div class="card-body">
+                        <p>For the first time in Oxford China Forum’s history, we are offering a literature panel. China’s literature today face unique challenges. The proliferation of new social media platforms combined with the old censorship regime invites the question of how we can build and sustain literary high culture in China. Globalising Chinese literature is oftentimes barred by difficulties in achieving precise and elegant translation. Is accessibility for the audience overseas a concern for Chinese writers in their writing today? Are media adaptations of literature distracting or attracting the audience in terms of sustained interest in quality reading? How relevant are topics in identity politics in today's China? Is the country really at the forefront of the postmodern marketisation of culture? We invite you to explore these questions with our distinguished guests from the academia and literature related industries.</p>
+                      </div>
+                    </div>
+                  </div>
+				  <!--End-->
+
+				  <!--Start-->
+                  <div class="card">
+                    <div id="headingOne" class="collapsed" data-toggle="collapse" data-target="#2018_6" aria-expanded="false" aria-controls="2018_6" >
+                      <div class=" card-header his-3" style="display:flex">
+                        <div class="his-text">
+						<h5 >LITERATURE</h5>
+                        <h4>WANG TIANYOU & JIANG SHANQING & TAI XIANGZHOU & XU BING & JIN XING</h4>
+                        <h5 > </h5>
+                        </div>
+                        <div class="his-image_div">
+						<div class="his-image_div speaker">
+                          <img class="img-fluid his-image5" src="assets/img/history/WANG TIANYOU.jpg" alt="">
+						   <div class="info-text5"><h3><a >WANG TIANYOU</a></h3></div>
+                        </div>
+                        <div class="his-image_div speaker">
+                          <img class="img-fluid his-image5" src="assets/img/history/JIANG SHANQING.jpg" alt="">
+						   <div class="info-text5"><h3><a >JIANG SHANQING</a></h3></div>
+                        </div>
+						<div class="his-image_div speaker">
+                          <img class="img-fluid his-image5" src="assets/img/history/TAI XIANGZHOU.jpg" alt="">
+						   <div class="info-text5"><h3><a >TAI XIANGZHOU</a></h3></div>
+                        </div>
+						<div class="his-image_div speaker">
+                          <img class="img-fluid his-image5" src="assets/img/history/XU BING.jpg" alt="">
+						   <div class="info-text5"><h3><a >XU BING</a></h3></div>
+                        </div>
+						<div class="his-image_div speaker">
+                          <img class="img-fluid his-image5" src="assets/img/history/JIN XING.jpg" alt="">
+						   <div class="info-text5"><h3><a >JIN XING</a></h3></div>
+                        </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div id="2018_6" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+                      <div class="card-body">
+                        <p>The Art & Culture panel will be themed around ‘Reinvention and Revival’. This panel is specially designed for interdisciplinary discussions on Chinese art and culture, from the perspective of all kinds of artists, including dancers, calligraphers, writers and painters. The multi-cultural and multi-disciplinary backgrounds of our distinguished guests will hopefully inject the discussions with vibrancy and refreshing ideas. The last one hundred years saw art and culture in China challenged from multiple fronts. Whilst the influx of Western art and aestheticism stimulated change and adaption, the growing economy and expanding market raised the issue of commercialisation. Attempts were made to recovered the lost tradition, while reinvention was also actively sought. In this panel discussion, we will be exploring the transformation of Chinese art in the last century, the way it echoes with Western culture, and the underlying social current that influenced the realm of art profoundly. We will also look into the tension between materialism and idealism, and between westernisation and the traditionalist approach.</p>
+                      </div>
+                    </div>
+                  </div>
+				  <!--End-->
                 </div>
               </div>
               <div class="tab-pane fade" id="2017" role="tabpanel" aria-labelledby="2017-tab">
