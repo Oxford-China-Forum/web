@@ -88,9 +88,14 @@
   color: #0A0A0A;
 }
 .popup__text p {
-  font-size: .875rem;
+  font-size: 100%;
   color: #686868;
   line-height: 1.5;
+}
+@media screen and (max-width: 650px) {
+  .popup__text {
+    padding: 3rem;
+  }
 }
 .popup:target {
   visibility: visible;

@@ -969,7 +969,7 @@ a.back-to-top:hover, a.back-to-top:focus {
 #sponsors .spnsors-logo {
   text-align: center;
   border-radius: 4px;
-  padding: 50px;
+  padding: 20px;
   margin-bottom: 30px;
   display: inline-block;
   border: 1px solid #ddd;
@@ -1206,7 +1206,7 @@ a.back-to-top:hover, a.back-to-top:focus {
 }
 
 .services-item {
-  padding: 40px 20px;
+  padding: 40px 0px 0px 0px;
   text-align: center;
   transition: all 0.3s ease-in-out 0s;
   -moz-transition: all 0.3s ease-in-out 0s;
@@ -2278,4 +2278,19 @@ a[href="index.html#schedules"]{
 }
 .icon123{
 	width: 75px;
+}
+@media screen and (max-width: 768px) {
+  [style="font-size: 28px; font-weight: 600;"]{
+    text-align: center;
+  }
+  .mid_whensmall{
+    margin: 0 auto;
+    margin-bottom: 30px;
+    display: block;
+    max-width: 120px;
+  }
+  .margin_whensmall{
+    margin-bottom: 20px;
+
+  }
 }
