@@ -92,9 +92,22 @@
   color: #686868;
   line-height: 1.5;
 }
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 800px) {
   .popup__text {
     padding: 3rem;
+    font-size: 7px !important;
+  }
+  .popup__text p{
+    font-size: 7px !important;
+  }
+}
+@media screen and (max-width: 550px) {
+  .popup__text {
+    padding: 1rem;
+    font-size: 5px !important;
+  }
+  .popup__text p{
+    font-size: 5px !important;
   }
 }
 .popup:target {
