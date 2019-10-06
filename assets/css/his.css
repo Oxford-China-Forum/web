@@ -121,3 +121,13 @@ img:hover{
     box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.3);
     transition: all 0.2s;
 }
+
+h4 + h5 {
+    font-size: 12px;
+    font-weight:1000;
+}
+
+h5 {
+    font-weight: 1000;
+    font-size: 20px;
+}
