@@ -1,0 +1,37 @@
+.navbar li a.nav-link {
+	color: black !important;
+}
+
+.navbar li.active a.nav-link {
+	color: #b6141f !important;
+}
+
+.navbar.navbar-expand-lg.fixed-top.scrolling-navbar {
+	background-color: #f3f4f3;
+}
+
+@media screen and (max-width: 768px) {
+	.popup__photo {
+		display: none !important
+	}
+
+	div.popup__text p {
+		min-width: 40vw;
+		transform: translate(-10px);
+	}
+
+	h1 {
+		min-width: 25vw;
+		transform: translate(-10px);
+	}
+
+	.popup-inner {
+		max-height: 500px;
+	}
+}
+
+@media  (min-width: 768px) {
+	.team123 {
+		min-width: 20%;
+	}
+}
