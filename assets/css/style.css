@@ -51,9 +51,6 @@
 }
 
 .popup__photo {
-	display: -webkit-box;
-	display: -ms-flexbox;
-	display: flex;
 	-webkit-box-pack: end;
 	-ms-flex-pack: end;
 	justify-content: flex-end;
@@ -62,7 +59,7 @@
 	align-items: flex-end;
 	width: 40%;
 	height: 100%;
-	overflow: hidden;
+	overflow: hidden !important;
 }
 
 .popup__photo img {
@@ -83,13 +80,13 @@
 	justify-content: center;
 	width: 60%;
 	height: 100%;
-	padding: 4rem;
+	padding: 3.5rem;
 }
 
 .popup__text h1 {
 	font-size: 2rem;
 	font-weight: 600;
-	margin-bottom: 2rem;
+	margin-bottom: 20px;
 	text-transform: uppercase;
 	color: #0A0A0A;
 }
@@ -97,30 +94,11 @@
 .popup__text p {
 	font-size: 100%;
 	color: #686868;
-	line-height: 1.5;
+	overflow:auto;
+	line-height: 200%;
+
 }
 
-@media screen and (max-width: 800px) {
-	.popup__text {
-		padding: 3rem;
-		font-size: 7px !important;
-	}
-
-	.popup__text p {
-		font-size: 7px !important;
-	}
-}
-
-@media screen and (max-width: 550px) {
-	.popup__text {
-		padding: 1rem;
-		font-size: 5px !important;
-	}
-
-	.popup__text p {
-		font-size: 5px !important;
-	}
-}
 
 .popup:target {
 	visibility: visible;
@@ -154,4 +132,25 @@
 
 h3 {
 	color: #212121;
+}
+
+@media screen and (max-width: 768px) {
+	.popup__photo {
+		display: none !important
+	}
+}
+
+@media screen and (max-width: 640px) {
+	.popup__text p{
+		font-size: 90%;
+	}
+}
+@media screen and (max-width: 580px) {
+	.popup__text p{
+		font-size: 90%;
+		line-height: 150%;
+	}
+	.popup__text{
+		padding: 2rem;
+	}
 }

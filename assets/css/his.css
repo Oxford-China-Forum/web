@@ -127,3 +127,11 @@ h5 {
 	font-weight: 1000;
 	font-size: 20px;
 }
+@media screen and (max-width: 1100px) {
+	.popup__photo {
+		display: none !important
+	}
+	.popup__text{
+		width: 100% !important;
+	}
+}

@@ -10,11 +10,11 @@
 	background-color: #f3f4f3;
 }
 
+.popup__text h1{
+	font-size: 20px;
+	margin-bottom: 20px;
+}
 @media screen and (max-width: 768px) {
-	.popup__photo {
-		display: none !important
-	}
-
 	div.popup__text p {
 		min-width: 40vw;
 		transform: translate(-10px);
@@ -24,14 +24,23 @@
 		min-width: 25vw;
 		transform: translate(-10px);
 	}
-
-	.popup-inner {
-		max-height: 500px;
+	.popup__text{
+		width: 100%;
 	}
-}
-
-@media  (min-width: 768px) {
 	.team123 {
 		min-width: 20%;
+	}
+	.popup__text h1{
+		font-size: 20px;
+		margin-bottom: 5px;
+	}
+}
+@media screen and (max-width: 580px) {
+	.popup__text p{
+		font-size: 100%;
+		line-height: 200%;
+	}
+	.popup__text{
+		padding: 2rem;
 	}
 }
