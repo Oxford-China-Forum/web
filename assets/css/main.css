@@ -1261,15 +1261,14 @@ a.back-to-top:hover, a.back-to-top:focus {
 
 .services-item .services-content h3 {
 	margin-bottom: 10px;
+	margin-top: 10px;
 	line-height: 26px;
-}
-
-.services-item .services-content h3 a {
 	font-size: 20px;
 	letter-spacing: 0.5px;
 	font-weight: 400;
 	color: #212121;
 }
+
 
 .services-item:hover {
 	background: #f3f3f3;
@@ -1460,6 +1459,7 @@ a.back-to-top:hover, a.back-to-top:focus {
 	margin: 0;
 	font-size: 8px;
 	color: #888;
+	line-height:10px;
 }
 
 .team-item:hover .team-overlay {
@@ -2304,7 +2304,7 @@ a[href="index.html#schedules"] {
 }
 
 .section123 {
-	padding: 20px;
+	padding: 0px 5px 10px 5px;
 }
 
 .abc {
@@ -2319,8 +2319,8 @@ a[href="index.html#schedules"] {
 	margin-bottom: 0px;
 }
 .text123{
-	font-size:17px;
-	line-height: 32px;
+	font-size: 15px;
+    line-height: 28px;
 	padding: 10px 10px 10px 0px;
 	margin-bottom: 0px;
 	font-family: "lucida grande", "lucida sans unicode", lucida, helvetica, "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
