@@ -2348,6 +2348,9 @@ a[href="index.html#schedules"] {
 	.text123{
 		padding: 15px;
 	}
+	.slide_btn{
+		display: none;
+	}
 }
 
 @media screen and (max-width: 996px) {
@@ -2365,5 +2368,14 @@ a[href="index.html#schedules"] {
 
 	.title123 {
 		font-size: 18px;
+	}
+	.carousel-indicators{
+		display: none;
+	}
+}
+
+@media screen and (max-width: 552px) {
+	.counter-section .counter p{
+		font-size: 8px;
 	}
 }

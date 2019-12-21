@@ -1,3 +1,7 @@
+@media only screen and (min-width: 1400px){
+#main-slide .carousel-item {
+    height: 850px;
+}}
 /* only small desktops */
 @media (min-width: 992px) and (max-width: 1199px) {
 	#main-slide .carousel-caption {
@@ -270,6 +274,9 @@
 }
 
 @media (min-width: 320px) and (max-width: 480px) {
+	#main-slide .carousel-caption {
+		top: 22%;
+	}
 	#main-slide .carousel-item .carousel-caption .heading {
 		letter-spacing: 0;
 	}
@@ -301,5 +308,10 @@
 	.btn {
 		padding: 5px 7px;
 		font-size: 13px;
+	}
+}
+@media (max-width: 400px){
+	#main-slide .carousel-caption {
+		top: 10%;
 	}
 }
