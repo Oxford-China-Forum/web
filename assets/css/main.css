@@ -2269,9 +2269,6 @@ a.back-to-top:hover, a.back-to-top:focus {
 	border-color: #fff;
 }
 
-.title123 {
-	font-size: 175%;
-}
 
 .detail {
 	padding-top: 10px;
@@ -2317,16 +2314,19 @@ a[href="index.html#schedules"] {
 }
 .title123{
 	margin-bottom: 0px;
+	font-size: 150%;
+	font-weight: 600; 
+	padding-bottom: 5px
 }
 .text123{
 	font-size: 15px;
     line-height: 28px;
-	padding: 10px 10px 10px 0px;
+	padding-bottom: 5px;
 	margin-bottom: 0px;
 	font-family: "lucida grande", "lucida sans unicode", lucida, helvetica, "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
 }
 .mid_whensmall{
-	margin-top:15px;
+	margin-top:5px;
 }
 @media screen and (max-width: 768px) {
   .title123 {
@@ -2347,6 +2347,7 @@ a[href="index.html#schedules"] {
 	}
 	.text123{
 		padding: 15px;
+		text-align: center;
 	}
 	.slide_btn{
 		display: none;
