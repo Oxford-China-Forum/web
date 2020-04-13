@@ -2319,11 +2319,11 @@ a[href="index.html#schedules"] {
 	padding-bottom: 5px
 }
 .text123{
-	font-size: 15px;
-    line-height: 28px;
+	font-size: 18px;
+    line-height: 38px;
 	padding-bottom: 5px;
 	margin-bottom: 0px;
-	font-family: "lucida grande", "lucida sans unicode", lucida, helvetica, "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+	font-family: "WenQuanYi Micro Hei", sans-serif;
 }
 .mid_whensmall{
 	margin-top:5px;
@@ -2363,12 +2363,12 @@ a[href="index.html#schedules"] {
 		object-fit: cover;
 	}
 	.text123 {
-		font-size: 15px;
-		line-height: 25px;
+		font-size: 14px !important;
+		line-height: 32px !important;
 	}
 
 	.title123 {
-		font-size: 18px;
+		font-size: 20px;
 	}
 	.carousel-indicators{
 		display: none;
