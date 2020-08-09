@@ -989,13 +989,14 @@ a.back-to-top:hover, a.back-to-top:focus {
 #sponsors .spnsors-logo {
 	text-align: center;
 	border-radius: 4px;
-	padding: 20px;
 	margin-bottom: 30px;
 	display: inline-block;
 	border: 1px solid #ddd;
 	background: #fff;
 	-webkit-transition: all 300ms ease-in-out;
 	transition: all 300ms ease-in-out;
+	padding: 10px;
+
 }
 
 #sponsors .spnsors-logo:hover {
@@ -2388,3 +2389,14 @@ a[href="index.html#schedules"] {
 	display: flex;
 	flex-basis: auto;
 }
+
+.sponsors123{
+	max-width: 800px;
+	margin: 0 auto;
+}
+
+.img-fluid{
+	width: 100%;
+	height: 100%;
+}
+
