@@ -20,7 +20,7 @@ body {
 	overflow-x: hidden;
 }
 
-h1, h2, h3, h4 {
+h2, h3, h4 {
 	font-size: 36px;
 	font-weight: 700;
 	font-family: 'Lato', sans-serif;
@@ -619,14 +619,14 @@ a.back-to-top:hover, a.back-to-top:focus {
 	z-index: 999999;
 	top: 0px !important;
 	min-height: 58px;
-	box-shadow: 0px 3px 6px 3px rgba(0, 0, 0, 0.06);
-	-webkit-animation-duration: 1s;
-	animation-duration: 1s;
+	box-shadow: 0px 3px 6px 3px rgba(0, 0, 0, 0.03);
+	-webkit-animation-duration: 0.1s;
+	animation-duration: 0.1s;
 	-webkit-animation-fill-mode: both;
 	animation-fill-mode: both;
 	-webkit-animation-name: fadeInDown;
 	animation-name: fadeInDown;
-	background: #fff !important;
+	background: rgba(239, 235, 220, .96);
 }
 
 .top-nav-collapse img {
@@ -638,7 +638,7 @@ a.back-to-top:hover, a.back-to-top:focus {
 }
 
 .top-nav-collapse .navbar-nav .nav-link {
-	color: #212121 !important;
+	color: #262626 !important;
 }
 
 .top-nav-collapse .navbar-nav .nav-link:hover {
@@ -654,7 +654,7 @@ a.back-to-top:hover, a.back-to-top:focus {
 }
 
 .navbar-expand-lg .navbar-nav .nav-link {
-	color: #fff;
+	color: #f1f1e6;
 	padding: 0 15px;
 	margin-top: 10px;
 	margin-bottom: 10px;
@@ -665,6 +665,7 @@ a.back-to-top:hover, a.back-to-top:focus {
 	-moz-transition: all 0.3s ease-in-out;
 	transition: all 0.3s ease-in-out;
 	position: relative;
+	text-shadow: 0px 1px 1.5px #47473e;
 }
 
 .navbar-expand-lg .navbar-nav li > a:before {
