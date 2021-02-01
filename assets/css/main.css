@@ -279,6 +279,7 @@ button:focus {
 
 .mb-30 {
 	margin-bottom: 30px;
+	margin-left: 30px;
 }
 
 .mt-30 {
@@ -1439,7 +1440,8 @@ a.back-to-top:hover, a.back-to-top:focus {
 	left: 10px;
 	padding: 15px 20px;
 	background: #f3f4f3;
-	text-align: left;
+	filter: opacity(0.85);
+	text-align: -webkit-center;
 }
 
 .team-item .info-text h3 {
